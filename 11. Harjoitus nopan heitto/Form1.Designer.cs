@@ -48,17 +48,21 @@
             // 
             // Noppa01PB
             // 
+            this.Noppa01PB.Image = global::_11._Harjoitus_nopan_heitto.Properties.Resources.rollingDice;
             this.Noppa01PB.Location = new System.Drawing.Point(25, 73);
             this.Noppa01PB.Name = "Noppa01PB";
             this.Noppa01PB.Size = new System.Drawing.Size(100, 100);
+            this.Noppa01PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Noppa01PB.TabIndex = 1;
             this.Noppa01PB.TabStop = false;
             // 
             // Noppa02PB
             // 
+            this.Noppa02PB.Image = global::_11._Harjoitus_nopan_heitto.Properties.Resources.rollingDice;
             this.Noppa02PB.Location = new System.Drawing.Point(158, 73);
             this.Noppa02PB.Name = "Noppa02PB";
             this.Noppa02PB.Size = new System.Drawing.Size(100, 100);
+            this.Noppa02PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Noppa02PB.TabIndex = 2;
             this.Noppa02PB.TabStop = false;
             // 
@@ -71,6 +75,7 @@
             this.HeitaBT.TabIndex = 3;
             this.HeitaBT.Text = "Heitä";
             this.HeitaBT.UseVisualStyleBackColor = true;
+            this.HeitaBT.Click += new System.EventHandler(this.HeitaBT_Click);
             // 
             // Form1
             // 
