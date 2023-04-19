@@ -7,6 +7,7 @@ namespace _11._Harjoitus_nopan_heitto
             InitializeComponent();
         }
 
+        //nopat
         private void HeitaBT_Click(object sender, EventArgs e)
         {
             piirraNoppa(Noppa01PB);
